@@ -1,0 +1,23 @@
+{
+  "name": "cafe_store",
+  "version": "1.0.0",
+  "description": "Coffee Store",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wolf-shubham/cafe_store.git"
+  },
+  "author": "Shubham Sharma",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/wolf-shubham/cafe_store/issues"
+  },
+  "homepage": "https://github.com/wolf-shubham/cafe_store#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "nodemon": "^2.0.12"
+  }
+}
