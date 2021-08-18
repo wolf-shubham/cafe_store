@@ -4,3 +4,15 @@ var typed = new Typed(".typing", {
     backSpeed: 60,
     loop: true
 });
+
+// Modal Content
+var modal = document.getElementById('modal');
+var span = document.getElementsByClassName("close")[0];
+
+setTimeout(function () {
+    modal.style.display = 'block';
+}, 3000);
+
+span.onclick = function () {
+    modal.style.display = "none";
+};
