@@ -13,8 +13,15 @@ const span = document.getElementsByClassName("close")[0];
 
 setTimeout(function () {
     modal.style.display = 'block';
-}, 1000);
+}, 5000);
 
 span.onclick = function () {
     modal.style.display = "none";
+};
+
+// Modal closing, from outisde the modal.
+window.onclick = function (event) {
+    if (event.target == modal) {
+        modal.style.display = "none";
+    };
 };
