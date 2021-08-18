@@ -160,14 +160,63 @@ body {
 
 .modal_content {
   background-color: #fefefe;
-  margin: auto;
-  padding: 20px;
+  position: absolute;
+  bottom: 5%;
+  left: 25%;
+  padding: 0px 30px;
   border: 1px solid #888;
   width: 50%;
-  position: relative;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.modal_img {
+  width: 100px;
+}
+
+.modal_text {
+  line-height: 2.2;
+  letter-spacing: 0.5px;
+}
+
+#email {
+  background: transparent;
+  border: transparent;
+  border-bottom: 2px solid gray;
+  font-weight: bold;
+  letter-spacing: 1px;
+  padding: 4px 10px;
+}
+
+#subscribe_btn {
+  font-size: 14px;
+  letter-spacing: 1px;
+  width: 80px;
+  height: 26px;
+  margin-left: 25px;
+  background: #c68b59;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  color: #fff;
 }
 
 .close {
   cursor: pointer;
-  font-size: 50px;
+  font-size: 25px;
+  font-weight: 900;
+  margin-top: -30px;
+  padding-left: 8px;
+  padding-top: 2px;
+  width: 30px;
+  height: 30px;
+  transition: 0.5s ease-out;
+  border-radius: 50%;
+}
+
+.close:hover {
+  transform: scale(1.2);
+  color: #fff;
+  background-color: #c68b59;
 }
