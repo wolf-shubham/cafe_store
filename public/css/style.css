@@ -128,7 +128,12 @@ body {
 
 .recepie {
   height: 100vh;
-  background-color: #f5e8c7;
+  background-color: #eeeeee;
+  /* display: flex; */
+}
+.recepie_bg_pic {
+  height: 100vh;
+  float: right;
 }
 
 .review {
